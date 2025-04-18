@@ -5,12 +5,12 @@ public class FizzBuzz {
     public static void main(String[] args) {
         
         for (int n = 1; n <= 100; n++ ){
-            System.out.println(fizzbuzz(n));
+            System.out.println(fizzBuzz(n));
         }
 
     }
 
-    public static String fizzbuzz(int i){
+    public static String fizzBuzz(int i){
         
         String result;
         
