@@ -42,7 +42,7 @@ public class FizzBuzz {
             if(i / 10 == 3){
                 result = "fizz" + result;
             }
-
+            
             if(i % 10 == 5){
                 result = result + "buzz";
             }
