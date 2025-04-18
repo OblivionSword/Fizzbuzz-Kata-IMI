@@ -39,7 +39,7 @@ public class fizzbuzz_test {
 
     @Test
     public void FizzBuzz25(){
-        Assert.assertEquals("buzz", fb.fizzbuzz(25));
+        Assert.assertEquals("buzzbuzz", fb.fizzbuzz(25));
         
     }
 
@@ -55,6 +55,18 @@ public class fizzbuzz_test {
         
     }
 
+    @Test
+    public void FizzBuzz50(){
+        Assert.assertEquals("buzzbuzz", fb.fizzbuzz(50));
+        
+    }
+
+    @Test
+    public void FizzBuzz35(){
+        Assert.assertEquals("fizzbuzzbuzz", fb.fizzbuzz(35));
+        
+    }
+
 
     @Test
     public void FizzBuzz53(){
@@ -62,5 +74,13 @@ public class fizzbuzz_test {
         
     }
 
+    @Test
+    public void FizzBuzz51(){
+        Assert.assertEquals("fizzbuzz", fb.fizzbuzz(51));
+        
+    }
+
+
+   
 
 }
